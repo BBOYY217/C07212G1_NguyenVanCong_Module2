@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cff77ae-749b-46dd-8eea-51f4af2a6b8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wnJjG3INQDC2WQKCBtLQQJIUmC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager" selected="Application.ReverseArray">
+    <configuration name="DisplayImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai2_Loop.exercise.DisplayImage" />
+      <module name="C07212G1_NguyenVanCong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai2_Loop.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1_introduction_to_java.exercise.ExchangeMoney" />
+      <module name="C07212G1_NguyenVanCong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai1_introduction_to_java.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapThem.MoneyChange" />
+      <module name="C07212G1_NguyenVanCong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTapThem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai2_Loop.practice.ReverseArray" />
+      <module name="C07212G1_NguyenVanCong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai2_Loop.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <module name="C07212G1_NguyenVanCong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.MoneyChange" />
+        <item itemvalue="Application.ExchangeMoney" />
+        <item itemvalue="Application.DisplayImage" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cff77ae-749b-46dd-8eea-51f4af2a6b8f" name="Default Changelist" comment="" />
+      <created>1629088552988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629088552988</updated>
+      <workItem from="1629088555627" duration="3184000" />
+      <workItem from="1629096017779" duration="15102000" />
+      <workItem from="1629115073941" duration="5000" />
+      <workItem from="1629165563093" duration="457000" />
+      <workItem from="1629170277793" duration="3797000" />
+      <workItem from="1629174294205" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="99" key="#Project_Structure" timestamp="1629088562057">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1629088562057" />
+    <state x="743" y="419" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629088898071">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="743" y="419" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1629088898071" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1629174110002">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110002" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1629174110003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1629174110003" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1629170890370">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1629170890370" />
+    <state x="685" y="157" key="new project wizard" timestamp="1629174315836">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="685" y="157" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1629174315836" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1629171200248">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1629171200248" />
+  </component>
+</project>
