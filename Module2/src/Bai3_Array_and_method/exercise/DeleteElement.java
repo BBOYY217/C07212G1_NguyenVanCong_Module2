@@ -1,4 +1,4 @@
-package Bai3_Array.exercise;
+package Bai3_Array_and_method.exercise;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class DeleteElement {
         for (int i = index; i < array.length - 1; i++) {
             array[i] = array[i + 1];
         }
-        
+
         array[array.length - 1] = 0;
         System.out.println("After delete :");
         for (int i = 0; i < array.length; i++) {
@@ -20,4 +20,3 @@ public class DeleteElement {
         }
     }
 }
-
