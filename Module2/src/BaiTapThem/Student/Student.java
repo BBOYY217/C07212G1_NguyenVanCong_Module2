@@ -1,19 +1,21 @@
 package BaiTapThem.Student;
 
 public class Student {
-    private int  id ;
+    private int id;
     private String name;
     private int age;
-    private String classes ;
+    private String classes;
+    private Address address;
 
     public Student() {
     }
 
-    public Student(int id, String name, int age, String classes) {
+    public Student(int id, String name, int age, String classes, Address address) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.classes = classes;
+        this.address = address;
     }
 
     public int getId() {
@@ -48,13 +50,22 @@ public class Student {
         this.classes = classes;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", classes='" + classes + '\'' +
+                "id =" + id +
+                ", name ='" + name + '\'' +
+                ", age =" + age +
+                ", classes ='" + classes + '\'' +
+                ", address =" + address +
                 '}';
     }
 }

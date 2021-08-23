@@ -10,9 +10,9 @@ public class StudentManager {
     static {
         System.out.println("Enter the length of the array");
         studentList = new Student[Integer.parseInt(scanner.nextLine())];
-        studentList[0] = new Student(1, "Cong", 20, "C07");
-        studentList[1] = new Student(2, "Tinh", 21, "C07");
-        studentList[2] = new Student(3, "Sang", 27, "C07");
+        studentList[0] = new Student(1, "Cong", 20, "C07",null);
+        studentList[1] = new Student(2, "Tinh", 21, "C07",null);
+        studentList[2] = new Student(3, "Sang", 27, "C07",null);
     }
 
     public static void display() {
@@ -34,8 +34,25 @@ public class StudentManager {
         System.out.println("Classes :");
         String classes = scanner.nextLine();
 
+        Address address = new Address();
+
+        System.out.println("Apartment Number :");
+        address.setApartmentNumber(scanner.nextLine());
+
+        System.out.println("Stress :");
+        address.setStress(scanner.nextLine());
+
+        System.out.println("Ward :");
+        address.setWard(scanner.nextLine());
+
+        System.out.println("District :");
+        address.setDistrict(scanner.nextLine());
+
+        System.out.println("Province :");
+        address.setProvince(scanner.nextLine());
+
         for (int i = 0; i < studentList.length; i++) {
-            Student student = new Student(id, name, age, classes);
+            Student student = new Student(id, name, age, classes,address);
             if (studentList[i] == null) {
                 studentList[i] = student;
                 break;
@@ -52,6 +69,7 @@ public class StudentManager {
                 studentList[i].setName(null);
                 studentList[i].setAge(0);
                 studentList[i].setClasses(null);
+                studentList[i].setAddress(null);
                 break;
             }
         }
@@ -70,15 +88,35 @@ public class StudentManager {
         System.out.println("Classes :");
         String newClass = scanner.nextLine();
 
+        Address address = new Address();
+
+        System.out.println("Apartment Number :");
+        address.setApartmentNumber(scanner.nextLine());
+
+        System.out.println("Stress :");
+        address.setStress(scanner.nextLine());
+
+        System.out.println("Ward :");
+        address.setWard(scanner.nextLine());
+
+        System.out.println("District :");
+        address.setDistrict(scanner.nextLine());
+
+        System.out.println("Province :");
+        address.setProvince(scanner.nextLine());
+
+
         for (int i = 0; i < studentList.length; i++) {
             if (newId == studentList[i].getId() && studentList[i] instanceof Student) {
                 studentList[i].setId(newId);
                 studentList[i].setName(newName);
                 studentList[i].setAge(newAge);
                 studentList[i].setClasses(newClass);
+                studentList[i].setAddress(address);
                 break;
             } else if (newId == studentList[i].getId()) {
                 System.out.println("Same ID");
+                break;
             }
         }
     }

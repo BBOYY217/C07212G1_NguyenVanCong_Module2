@@ -1,4 +1,4 @@
-package BaiTapThem;
+package BaiTapThem.Money;
 
 import java.util.Scanner;
 

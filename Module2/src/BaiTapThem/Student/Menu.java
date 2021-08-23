@@ -2,7 +2,7 @@ package BaiTapThem.Student;
 
 import java.util.Scanner;
 
-public class Test {
+public class Menu {
     public static void main(String[] args) {
         while (true) {
             System.out.println(" ");
