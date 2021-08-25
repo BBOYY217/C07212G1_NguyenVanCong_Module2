@@ -5,8 +5,9 @@ public class find {
         String str = "abcbdcef";
         int[] counter = new int[256];
         int n = str.length();
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             counter[str.charAt(i)]++;
+        }
         char[] array = new char[str.length()];
         for (int i = 0; i < n; i++) {
             array[i] = str.charAt(i);
