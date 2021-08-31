@@ -1,4 +1,4 @@
-package bai2_loop.practice;
+package bai3_array_and_method.practice;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class FindMaxElement {
         array = new int[size];
         int i = 0;
         while (i < array.length) {
-            System.out.print("Enter element" + (i + 1) + " : ");
+            System.out.print("Enter element " + (i + 1) + " : ");
             array[i] = scanner.nextInt();
             i++;
         }

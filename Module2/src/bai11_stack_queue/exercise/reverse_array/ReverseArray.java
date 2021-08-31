@@ -19,15 +19,15 @@ public class ReverseArray {
             array[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < array.length ; i++) {
+        for (int i = 0; i < array.length; i++) {
             stack.push(array[i]);
         }
         System.out.println("Array after using push() " + "\n" + Arrays.toString(array));
 
-        for (int i = 0; i < array.length ; i++) {
-            array[i]=stack.pop();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = stack.pop();
         }
-        System.out.println("Array after using pop() "+"\n"+Arrays.toString(array));
+        System.out.println("Array after using pop() " + "\n" + Arrays.toString(array));
 
     }
 }
