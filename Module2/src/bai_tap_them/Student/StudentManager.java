@@ -105,7 +105,6 @@ public class StudentManager {
         System.out.println("Province :");
         address.setProvince(scanner.nextLine());
 
-
         for (int i = 0; i < studentList.length; i++) {
             if (newId == studentList[i].getId() && studentList[i] instanceof Student) {
                 studentList[i].setId(newId);

@@ -1,5 +1,7 @@
 package bai12_collection_framework.exercise.product_management;
 
+import java.util.Comparator;
+
 public class Product implements Comparable<Product> {
     private int id;
     private String name;

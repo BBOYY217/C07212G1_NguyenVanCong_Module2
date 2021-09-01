@@ -9,9 +9,9 @@ public class Main {
         while (true) {
             System.out.println("Menu");
             System.out.println("1. Add");
-            System.out.println("2. Display");
+            System.out.println("2. Edit");
             System.out.println("3. Delete");
-            System.out.println("4. Edit");
+            System.out.println("4. Display");
             System.out.println("5. Search by name");
             System.out.println("6. Sort Up By Value");
             System.out.println("7. Sort Down By Value");
@@ -22,25 +22,27 @@ public class Main {
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
-                    // them
+                    ProductManager.add();
                     break;
                 case 2:
-                    // sua thonng tin
+                    ProductManager.editProduct();
                     break;
                 case 3:
-                   // xoa
+                   ProductManager.deleteProduct();
                     break;
                 case 4:
-                   // hien thi
+                   ProductManager.display();
                     break;
                 case 5:
-                   // tim kiem
+                    ProductManager.search();
+                case 6:
+                    ProductManager.priceIncrease();
+                    break;
+                case 7:
+                    ProductManager.reducedPrice();
+                    break;
                 case 8:
-                    // tang dan
-                    break;
-                case 9:
-                    // giam dan
-                    break;
+                    System.exit(8);
                 default:
                     System.out.println("Choose again");
             }
