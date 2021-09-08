@@ -1,4 +1,4 @@
-package bai14_sort_algorithm.exercise.setting_the_selection_sort_algorithm;
+package bai14_sort_algorithm.practice.setting_the_selection_sort_algorithm;
 
 public class SelectionSort {
     static double[] list = {1, 9, 4.5, 6.6, 5.7, -4.5};

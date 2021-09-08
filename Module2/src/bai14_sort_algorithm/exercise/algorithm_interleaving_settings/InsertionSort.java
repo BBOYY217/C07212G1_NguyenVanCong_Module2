@@ -3,7 +3,7 @@ package bai14_sort_algorithm.exercise.algorithm_interleaving_settings;
 import java.util.Arrays;
 
 public class InsertionSort {
-    static int[] arr = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
+    int[] arr = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
     public static void insertionSort(int[] array){
         int pos;
         int x;
@@ -18,6 +18,7 @@ public class InsertionSort {
         }
     }
     public static void main(String[] args) {
+        int[] arr = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
