@@ -21,7 +21,7 @@ public class ReadFileExample {
             System.out.println("Tổng = "+ sum);
         } catch (IOException e) {
             e.printStackTrace();
-            System.err.println("Fie không tồn tại or nội dung có lỗi!");
+            System.err.println("File không tồn tại or nội dung có lỗi!");
         }
     }
     public static  void main(String[] args) {

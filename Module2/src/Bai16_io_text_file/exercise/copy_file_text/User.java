@@ -19,10 +19,10 @@ public class User {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("ko tim thay file");
+            System.out.println("file could not be found");
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("bi loi doc ghi ");
+            System.out.println("read and write error");
         }
 
     }
