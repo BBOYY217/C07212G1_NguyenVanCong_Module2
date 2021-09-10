@@ -1,19 +1,23 @@
 package bai17_binary_and_serialization.exercise.product_management;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
     private int id;
     private String name;
-    private String manufacturer;
+    private String producer;
     private int price;
+    private String descriptions;
 
     public Product() {
     }
 
-    public Product(int id, String name, String manufacturer, int price) {
+    public Product(int id, String name, String producer, int price, String descriptions) {
         this.id = id;
         this.name = name;
-        this.manufacturer = manufacturer;
+        this.producer = producer;
         this.price = price;
+        this.descriptions = descriptions;
     }
 
     public int getId() {
@@ -32,12 +36,12 @@ public class Product {
         this.name = name;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
+    public String getProducer() {
+        return producer;
     }
 
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+    public void setProducer(String producer) {
+        this.producer = producer;
     }
 
     public int getPrice() {
@@ -48,13 +52,22 @@ public class Product {
         this.price = price;
     }
 
+    public String getDescriptions() {
+        return descriptions;
+    }
+
+    public void setDescriptions(String descriptions) {
+        this.descriptions = descriptions;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", price='" + price + '\'' +
+                ", producer='" + producer + '\'' +
+                ", price=" + price +
+                ", descriptions='" + descriptions + '\'' +
                 '}';
     }
 }
