@@ -7,7 +7,7 @@ public class Customer extends Person{
     public Customer() {
     }
 
-    public Customer(int idCard, String name, int dayOfBirth, String gender, String phoneNumber, String email, String customerType, String address) {
+    public Customer(int idCard, String name, String dayOfBirth, String gender, String phoneNumber, String email, String customerType, String address) {
         super(idCard, name, dayOfBirth, gender, phoneNumber, email);
         this.customerType = customerType;
         this.address = address;

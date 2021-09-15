@@ -30,7 +30,7 @@ public class FuramaController {
             switch (choice) {
                 case 1: {
                     System.out.println("1.Employee Management");
-                   EmployeeController.displayEmployeeMenu();
+                    EmployeeController.displayEmployeeMenu();
                     break;
                 }
                 case 2: {
@@ -70,10 +70,6 @@ public class FuramaController {
 
         }
     }
-
-
-
-
 
 
 }

@@ -3,7 +3,7 @@ package case_study.model;
 public class Facility {
     private int idSeveice;
     private String service;
-    private String usableArea;
+    private int usableArea;
     private int rentalCosts;
     private int maximumNumberOfPeople;
     private String rentalStyle;
@@ -11,7 +11,7 @@ public class Facility {
     public Facility() {
     }
 
-    public Facility(int idSeveice, String service, String usableArea, int rentalCosts, int maximumNumberOfPeople, String rentalStyle) {
+    public Facility(int idSeveice, String service, int usableArea, int rentalCosts, int maximumNumberOfPeople, String rentalStyle) {
         this.idSeveice = idSeveice;
         this.service = service;
         this.usableArea = usableArea;
@@ -36,11 +36,11 @@ public class Facility {
         this.service = service;
     }
 
-    public String getUsableArea() {
+    public int getUsableArea() {
         return usableArea;
     }
 
-    public void setUsableArea(String usableArea) {
+    public void setUsableArea(int usableArea) {
         this.usableArea = usableArea;
     }
 
@@ -73,7 +73,7 @@ public class Facility {
         return "Facility{" +
                 "idSeveice=" + idSeveice +
                 ", service='" + service + '\'' +
-                ", usableArea='" + usableArea + '\'' +
+                ", usableArea=" + usableArea +
                 ", rentalCosts=" + rentalCosts +
                 ", maximumNumberOfPeople=" + maximumNumberOfPeople +
                 ", rentalStyle='" + rentalStyle + '\'' +

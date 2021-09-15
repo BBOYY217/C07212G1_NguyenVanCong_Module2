@@ -1,9 +1,9 @@
 package case_study.model;
 
-public class Booking implements Comparable<Booking> {
+public class Booking {
     private int idBooking;
-    private int starDay;
-    private int endDay;
+    private String starDay;
+    private String endDay;
     private String customerCode;
     private String nameService;
     private String typeService;
@@ -11,7 +11,7 @@ public class Booking implements Comparable<Booking> {
     public Booking() {
     }
 
-    public Booking(int idBooking, int starDay, int endDay, String customerCode, String nameService, String typeService) {
+    public Booking(int idBooking, String starDay, String endDay, String customerCode, String nameService, String typeService) {
         this.idBooking = idBooking;
         this.starDay = starDay;
         this.endDay = endDay;
@@ -28,19 +28,19 @@ public class Booking implements Comparable<Booking> {
         this.idBooking = idBooking;
     }
 
-    public int getStarDay() {
+    public String getStarDay() {
         return starDay;
     }
 
-    public void setStarDay(int starDay) {
+    public void setStarDay(String starDay) {
         this.starDay = starDay;
     }
 
-    public int getEndDay() {
+    public String getEndDay() {
         return endDay;
     }
 
-    public void setEndDay(int endDay) {
+    public void setEndDay(String endDay) {
         this.endDay = endDay;
     }
 
@@ -79,17 +79,4 @@ public class Booking implements Comparable<Booking> {
                 ", typeService='" + typeService + '\'' +
                 '}';
     }
-
-    @Override
-    public int compareTo(Booking o) {
-        if (o.getStarDay() > this.getStarDay()) {
-            return 1;
-        } else if (o.getStarDay() < this.getStarDay()) {
-            return -1;
-        } else {
-            return 0;
-        }
-    }
-
-
 }

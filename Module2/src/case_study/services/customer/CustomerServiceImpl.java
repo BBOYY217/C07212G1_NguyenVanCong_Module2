@@ -26,7 +26,7 @@ public class CustomerServiceImpl implements CustomerService {
         String name = scanner.nextLine();
 
         System.out.println("Enter day of birth ");
-        int daOfBirth = Integer.parseInt(scanner.nextLine());
+        String dayOfBirth = scanner.nextLine();
 
         System.out.println("Enter gender");
         String gender = scanner.next();
@@ -43,19 +43,19 @@ public class CustomerServiceImpl implements CustomerService {
         System.out.println("Enter address");
         String address = scanner.nextLine();
 
-        Customer customer = new Customer(idCard,name,daOfBirth,gender,phoneNumber,email,customerType,address);
+        Customer customer = new Customer(idCard,name,dayOfBirth,gender,phoneNumber,email,customerType,address);
         customerList.add(customer);
 
         System.out.println("Added new customer success");
     }
 
-    @Override
-    public void edit() {
-
-    }
-
-    @Override
-    public void delete() {
-
-    }
+//    @Override
+//    public void edit() {
+//
+//    }
+//
+//    @Override
+//    public void delete() {
+//
+//    }
 }

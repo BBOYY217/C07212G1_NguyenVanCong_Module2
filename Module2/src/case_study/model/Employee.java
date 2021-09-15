@@ -6,7 +6,7 @@ public class Employee extends Person {
     private String staffPosition;
     private int salary;
 
-    public Employee(int idCard, String name, int dayOfBirth, String gender, String phoneNumber, String email, int idStaff, String academicLevel, String staffPosition, int salary) {
+    public Employee(int idCard, String name, String dayOfBirth, String gender, String phoneNumber, String email, int idStaff, String academicLevel, String staffPosition, int salary) {
         super(idCard, name, dayOfBirth, gender, phoneNumber, email);
         this.idStaff = idStaff;
         this.academicLevel = academicLevel;

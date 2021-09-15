@@ -12,8 +12,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     private static Scanner scanner = new Scanner(System.in);
 
     @Override
-    public void showList(){
-        for (int i = 0; i < employeeList.size() ; i++) {
+    public void showList() {
+        for (int i = 0; i < employeeList.size(); i++) {
             System.out.println();
         }
     }
@@ -34,7 +34,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         String name = scanner.nextLine();
 
         System.out.println("Enter day of birth ");
-        int daOfBirth = Integer.parseInt(scanner.nextLine());
+        String dayOfBirth = scanner.nextLine();
 
         System.out.println("Enter gender");
         String gender = scanner.next();
@@ -57,23 +57,26 @@ public class EmployeeServiceImpl implements EmployeeService {
         System.out.println("Enter salary");
         int salary = Integer.parseInt(scanner.nextLine());
 
-        Employee employee = new Employee(idCard, name, daOfBirth, gender, phoneNumber, email, idStaff, academicLevel, staffPosition, salary);
+        Employee employee = new Employee(idCard, name, dayOfBirth, gender, phoneNumber, email, idStaff, academicLevel, staffPosition, salary);
         employeeList.add(employee);
     }
 
-    @Override
-    public void edit() {
-//        for (int i = 0; i < employeeList.size() ; i++) {
-//            if(id == employeeList.get(i).getIdCard() ){
+//    @Override
+//    public void edit() {
+//
+//        for (int i = 0; i < employeeList.size(); i++) {
+//            if (id == employeeList.get(i).getIdCard()) {
 //                Employee employee = employeeList.get(i);
 //                System.out.println("Enter identity card ");
 //                employee.setIdCard();
 //            }
 //        }
-    }
-
-    @Override
-    public void delete() {
-
-    }
+//
+//    }
+//
+//    @Override
+//    public void delete() {
+//
+//
+//    }
 }
