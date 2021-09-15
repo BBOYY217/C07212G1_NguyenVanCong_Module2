@@ -2,8 +2,8 @@ package bai_lam_them_fix_bug_tuan4;
 
 public class Teacher extends Person {
     private int salary;
-    public Teacher(int salary,String name, int AGE, String address) {
-        super(name, AGE, address);
+    public Teacher(int salary,String name, int age, String address) {
+        super(name, age, address);
         this.salary=salary;
     }
 

@@ -1,10 +1,20 @@
 package case_study.controller;
 
+
+import case_study.services.customer.CustomerServiceImpl;
+import case_study.services.employee.EmployeeServiceImpl;
+import case_study.services.facility.FacilityService;
+import case_study.services.facility.FacilityServiceImpl;
+
 import java.util.Scanner;
 
 public class FuramaController {
 
-    static Scanner scanner = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        displayMainMenu();
+    }
 
     public static void displayMainMenu() {
         System.out.println("Welcome to Furama Resort menu: ");
@@ -20,29 +30,17 @@ public class FuramaController {
             switch (choice) {
                 case 1: {
                     System.out.println("1.Employee Management");
-                    System.out.println(
-                            "1:Display list employees\n" +
-                                    "2:Add new employee\n" +
-                                    "3:Edit employee\n" +
-                                    "4:Return main menu\n");
+                   EmployeeController.displayEmployeeMenu();
                     break;
                 }
                 case 2: {
                     System.out.println("2.Customer Management");
-                    System.out.println(
-                            "1:Display list customers\n" +
-                                    "2:Add new customer\n" +
-                                    "3:Edit customer\n" +
-                                    "4:Return main menu\n");
+                    CustomerController.displayCustomerMenu();
                     break;
                 }
                 case 3: {
                     System.out.println("3.Facility Management ");
-                    System.out.println(
-                            "1:Display list facility\n" +
-                                    "2:Add new facility\n" +
-                                    "3:Display list facility maintenance\n" +
-                                    "4:Return main menu\n");
+                    FacilityController.displayFacilityMenu();
                     break;
                 }
                 case 4: {
@@ -72,4 +70,10 @@ public class FuramaController {
 
         }
     }
+
+
+
+
+
+
 }

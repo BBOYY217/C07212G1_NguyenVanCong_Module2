@@ -21,6 +21,7 @@ public class ReadAndWrite {
             e.printStackTrace();
         }
     }
+
     public static void writeListStudentToCSV(String path, List<Student> listStudent, boolean append){
         List<String> listString =new  ArrayList<>();
         for (Student student: listStudent){
@@ -44,6 +45,7 @@ public class ReadAndWrite {
         }
         return stringList;
     }
+
     public static List<Student> getListStudent(String path){
         List<String> listString =readFromCSV(path);
         List<Student> studentList=new ArrayList<>();

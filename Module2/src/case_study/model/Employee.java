@@ -2,14 +2,16 @@ package case_study.model;
 
 public class Employee extends Person {
     private int idStaff;
-    private String academicLevel; // trình độ học tập
-    private String staffPosition; // vị trí của nhân viên
+    private String academicLevel;
+    private String staffPosition;
+    private int salary;
 
-    public Employee(String name, String dayOfBirth, String gender, String phoneNumber, String email, int idStaff, String academicLevel, String staffPosition) {
-        super(name, dayOfBirth, gender, phoneNumber, email);
+    public Employee(int idCard, String name, int dayOfBirth, String gender, String phoneNumber, String email, int idStaff, String academicLevel, String staffPosition, int salary) {
+        super(idCard, name, dayOfBirth, gender, phoneNumber, email);
         this.idStaff = idStaff;
         this.academicLevel = academicLevel;
         this.staffPosition = staffPosition;
+        this.salary = salary;
     }
 
     public int getIdStaff() {
@@ -36,12 +38,21 @@ public class Employee extends Person {
         this.staffPosition = staffPosition;
     }
 
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "idStaff=" + idStaff +
                 ", academicLevel='" + academicLevel + '\'' +
                 ", staffPosition='" + staffPosition + '\'' +
+                ", salary=" + salary +
                 '}';
     }
 }

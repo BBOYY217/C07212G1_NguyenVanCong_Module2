@@ -1,8 +1,9 @@
 package case_study.model;
 
 public class Person {
+    private int idCard;
     private String name;
-    private String dayOfBirth;
+    private int dayOfBirth;
     private String gender;
     private String phoneNumber;
     private String email;
@@ -10,12 +11,21 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, String dayOfBirth, String gender, String phoneNumber, String email) {
+    public Person(int idCard, String name, int dayOfBirth, String gender, String phoneNumber, String email) {
+        this.idCard = idCard;
         this.name = name;
         this.dayOfBirth = dayOfBirth;
         this.gender = gender;
         this.phoneNumber = phoneNumber;
         this.email = email;
+    }
+
+    public int getIdCard() {
+        return idCard;
+    }
+
+    public void setIdCard(int idCard) {
+        this.idCard = idCard;
     }
 
     public String getName() {
@@ -26,11 +36,11 @@ public class Person {
         this.name = name;
     }
 
-    public String getDayOfBirth() {
+    public int getDayOfBirth() {
         return dayOfBirth;
     }
 
-    public void setDayOfBirth(String dayOfBirth) {
+    public void setDayOfBirth(int dayOfBirth) {
         this.dayOfBirth = dayOfBirth;
     }
 
@@ -61,8 +71,9 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "name='" + name + '\'' +
-                ", dayOfBirth='" + dayOfBirth + '\'' +
+                "idCard=" + idCard +
+                ", name='" + name + '\'' +
+                ", dayOfBirth=" + dayOfBirth +
                 ", gender='" + gender + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", email='" + email + '\'' +

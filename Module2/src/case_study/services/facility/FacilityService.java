@@ -1,6 +1,9 @@
 package case_study.services.facility;
 
-import case_study.services.Service;
-
-public interface FacilityService extends Service {
+public interface FacilityService {
+    public void display();
+    public void displayMaintenance();
+    public void addNewVilla();
+    public void addNewHouse();
+    public void addNewRoom();
 }
